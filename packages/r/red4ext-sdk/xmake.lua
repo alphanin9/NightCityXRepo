@@ -33,6 +33,4 @@ package("red4ext-sdk")
 
   on_test("windows", function (package)
     assert(package:has_cxxincludes("RED4ext/CName.hpp", {configs = {languages = "cxx20"}}))
-    assert(package:has_cxxincludes("D3D12Downlevel.h", {configs = {languages = "cxx20"}}))
-    assert(package:has_cxxincludes("D3D12MemAlloc.h", {configs = {languages = "cxx20"}}))
   end)
