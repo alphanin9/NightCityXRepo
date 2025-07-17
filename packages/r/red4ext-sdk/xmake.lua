@@ -1,4 +1,4 @@
-package("RED4ext.SDK")
+package("red4ext-sdk")
   add_deps("cmake")
 
   set_homepage("https://github.com/wopss/RED4ext.SDK")
